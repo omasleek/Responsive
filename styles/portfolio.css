@@ -71,9 +71,11 @@ p {
   transition: background-color 0.3 ease;
 
 }
-.btn-branding-outline:hover {
-  background-color: var(--hover-button-color);
+.btn-branding,
+.btn-branding-outline {
+box-shadow: var(--box-shadow);
 }
+
 .project-description {
   padding: 120px 60px;
 }
