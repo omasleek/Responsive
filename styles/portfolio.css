@@ -38,13 +38,13 @@ font-weight: normal;
 font-size: 20px;
 line-height: 1.5;
 }
-.about-section {
+.content-container {
   padding: 0;
   text-align: center;
 }
-.about-section-content {
+.content {
   margin: 30px;
-  text-align: left;
+  text-align: center;
 }
 .btn-branding {
   background: var(--primary-color);
@@ -67,21 +67,37 @@ p {
   color: var(--primary-color);
   font-family: var(--default-font-family);
 }
-.about-section h1 {
-  font-size: 56px;
+.content h1 {
+  font-size: 50px;
   line-height: 60px;
   font-family: var(--heading-font-family);
 
 }
-.about-section p {
+.content-container p {
   font-size: 18px;
   font-family: var(--default-font-family);
 font-weight: normal;
+text-decoration: none;
 }
-.about-section h2 {
+.content h2 {
   font-size: 18px;
+  line-height: 1.5;
   font-family: var(--default-font-family);
 font-weight: bold;
+}
+.content h3 {
+  font-size: 28px;
+  margin: 20px 0 0;
+  text-decoration: none;
+  font-family: var(--default-font-family);
+}
+ 
+.content p {
+  margin: 0;
+  font-size: 14px;
+  color: var(--tertiary-color);
+  text-decoration: none;
+  font-family: var(--default-font-family);
 }
 .btn-branding-outline {
   background: var(--primary-color);
