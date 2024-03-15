@@ -140,11 +140,15 @@ box-shadow: var(--box-shadow);
   h2 {
     font-size: 44px;
   }
+  
   .project-description {
     padding: 60px 20px;
     text-align: center;
   }
 
+}
+h4 {
+  font-size: 28px;
 }
 .text-center {
   font-size: 26px;
@@ -184,4 +188,45 @@ nav a:hover {
 }
 nav li:active a {
 color: var(--preprimary-color);
+}
+footer .contact-box {
+  background: white;
+padding: 30px;
+border-radius: 10px;
+border: 2px solid ;
+
+}
+.btn-branding-out {
+  background: var(--preprimary-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+ border: 1px solid var(--primary-color);
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: background-color 0.3 ease;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+ text-align: center; 
+}
+footer .email-link:hover {
+  color: var(--preprimary-color);
+}
+footer .social-links a {
+margin:0 20px;
+color: var(--primary-color);
+background-color: var(--tertiary-color);
+font-size: 18px;
+padding: 15px 20px;
+border-radius: 50%;
+transition: all 150ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--preprimary-color);
+  
 }
